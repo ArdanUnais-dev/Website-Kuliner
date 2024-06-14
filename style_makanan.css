@@ -12,7 +12,7 @@
 #header{
     display: flex;
     justify-content: space-between;
-    padding: 40px 80px;   
+    padding: 50px 100px;   
     align-items: center;
     position: fixed;
     width: 100%;
@@ -473,9 +473,55 @@ footer span{
         width: 100%;
     }
 
-    .container-menu-tittle h2 {
-        font-size: 28px;
+     .card-menu {
+        margin-top: 100px;
+     }
+
+    .container-menu-tittle p {
+        font-size: 15px;
+        margin: -50px;
+        margin-top: 30px;
     }
+
+    .container-chef-tittle h2 {
+        font-size: 40px;
+    }
+
+    .container-chef-tittle p {
+        margin-top: 20px;
+    }
+
+    #testimonial {
+        background-image: url(assets/bg.jpg);
+        min-height: 100vh;
+        padding: 20px;
+    }
+
+    .container-testi-img {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .container-contact-tittle h2 {
+        font-size: 40px;
+        font-weight: 300;
+    }
+
+    #contact {
+        padding: 10px;
+        background: url(bg3.jpg);
+        min-height: 100vh;
+        background-size: cover
+    }
+    
+    .contact-card {
+        box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+        flex-direction: column;
+        margin-top: 40px;
+    }
+
+
+    
 
 }
 
